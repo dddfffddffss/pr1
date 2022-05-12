@@ -1,3 +1,7 @@
-import sub.exc as ex
+from sub.aboutstring import filestring as fs
 
-ex.pr()
+f = fs()
+print(fs.read("res\\1.txt"))
+for i in range(10):
+	print(f.num(), end=' ')
+print()
