@@ -1,4 +1,5 @@
-from sub.aboutstring import filestring as fs
+from sub.ee import filestring as fs
+
 
 f = fs()
 print(fs.read("res\\1.txt"))
